@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="mahendra.demo" 
 	version="1.2.10" 
+	versionCode="10201"
     xmlns:gap="http://phonegap.com/ns/1.0"
 	xmlns="http://www.w3.org/ns/widgets" 
 	xmlns:cdv="http://cordova.apache.org/ns/1.0">
