@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="mahendra.demo" 
+	version="1.2" 
+	xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	
+    <name>InApp</name>
+    <description>
+        A sample Apache Cordova application for testing InApp Purcahses.
+    </description>
+    <author email="liyamahendra4@gmail.com" href="http://cordova.io">
+        Mahendra Liya
+    </author>
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+	
+	<gap:plugin name="org.apache.cordova.console"  />
+	<gap:plugin name="cc.fovea.cordova.purchase">
+		<param name="BILLING_KEY" value="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAps9zWsqOlGNu8WnjH9I8ml75+sHZwIvfkUp9In50ar7F//GNuFMkBGA1paWiLWpxT7AtpWPpZpJqu4E7X3/XWfC8G5EZDqiM0yOeD1KP2dp5cOQqwT2IStmPx+ZO3S36wj2+AOXKh6bGKATkzGibD4L1cp4efBtbxgCmfs1alrK1aXEH2qwdVxb5t+GMCfoN+OUi61OxKb+Dcd8ZEO4Ft3BckWc5whA4XvTHzTvjam6+C5wm+AcMtRarQOcqUFKCiJLW+yAYdQGIdSZOgF/vsDez1UMnz2Oeiq3+IhHb4aPdB4PoTeEUVbVnZBRyiL+vVMBhE2/P9tmojhozwN5BBwIDAQAB" />
+	</gap:plugin>
+
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
+
